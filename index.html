@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Công ty TNHH Thương Mại Kỹ Thuật Trung An - Sản phẩm Bulong</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #0066cc;
+    }
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #003366;
+    }
+    .container {
+      padding: 20px;
+    }
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .product-item {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      margin: 10px;
+      width: calc(33.333% - 20px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .product-item img {
+      max-width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
+    .contact-form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      background-color: #004080;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #003366;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Công ty TNHH Thương Mại Kỹ Thuật Trung An</h1>
+    <p>Chuyên cung cấp các loại bulong chất lượng cao</p>
+  </header>
+  <nav>
+    <a href="#home">Trang chủ</a>
+    <a href="#products">Sản phẩm</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+  <div class="container" id="home">
+    <h2>Chào mừng đến với Trung An</h2>
+    <p>Chúng tôi chuyên cung cấp các loại bulong đáp ứng mọi nhu cầu trong ngành công nghiệp và xây dựng.</p>
+  </div>
+  <div class="container" id="products">
+    <h2>Sản phẩm của chúng tôi</h2>
+    <div class="product">
+      <div class="product-item">
+        <img src="https://via.placeholder.com/200" alt="Bulong lục giác">
+        <h3>Bulong lục giác</h3>
+        <p>Kích thước: M6 - M24</p>
+      </div>
+      <div class="product-item">
+        <img src="https://via.placeholder.com/200" alt="Bulong móng">
+        <h3>Bulong móng</h3>
+        <p>Kích thước: Tùy chỉnh theo yêu cầu</p>
+      </div>
+      <div class="product-item">
+        <img src="https://via.placeholder.com/200" alt="Bulong hóa chất">
+        <h3>Bulong hóa chất</h3>
+        <p>Độ bền cao, chống ăn mòn</p>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="contact">
+    <h2>Liên hệ với chúng tôi</h2>
+    <div class="contact-form">
+      <form>
+        <label for="name">Tên của bạn</label>
+        <input type="text" id="name" name="name" placeholder="Nhập tên của bạn" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
+        
+        <label for="message">Lời nhắn</label>
+        <textarea id="message" name="message" rows="4" placeholder="Nhập lời nhắn của bạn" required></textarea>
+        
+        <button type="submit">Gửi</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Công ty TNHH Thương Mại Kỹ Thuật Trung An. All rights reserved.</p>
+  </footer>
+</body>
+</html>
